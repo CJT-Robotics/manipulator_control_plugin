@@ -1,0 +1,14 @@
+<library path="src">
+    <class name="ManipulatorControlPlugin" type="manipulator_control_plugin.manipulator_plugin.ManipulatorPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>Manipulator Control Panel</description>
+    <qtgui>
+        <group>
+            <label>CJT-Robotics</label>
+            <icon>res/favicon.png</icon>
+        </group>
+        <label>Manipulator Control</label>
+        <title>Manipulator Control Panel</title>
+        <icon>res/favicon.png</icon>
+    </qtgui>
+    </class>
+</library>
